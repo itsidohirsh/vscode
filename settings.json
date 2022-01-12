@@ -4,6 +4,7 @@
         "*.do": "go",
         ".clang-format": "makefile"
     },
+
     // remove warning on untrusted authors
     "security.workspace.trust.untrustedfiles": "open", 
 
@@ -24,6 +25,7 @@
     "editor.fontFamily": "Cascadia Code, Fira Code, Jetbrains Mono",
     "editor.fontSize": 20,
     "editor.fontLigatures": true,
+
     // Theme
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
@@ -31,6 +33,7 @@
             "statusBar.debuggingBackground": "#212121"
         }
     },
+
     // Terminal
     "terminal.integrated.fontSize": 14,
     /***************************/
@@ -45,13 +48,13 @@
     /********** C **********/
     // Run C code in terminal
     "code-runner.runInTerminal": true, 
+
     "C_Cpp.default.compilerPath": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe",
     "C_Cpp.updateChannel": "Insiders",
+
     // C Code Format
     "C_Cpp.formatting": "clangFormat",
     "clang-format.executable": "C:\\Ido_Hirsh\\C\\.clang-format",
-    // "C_Cpp.clang_format_path": "C:\\Ido_Hirsh\\C\\.clang-format",
-    // "C_Cpp.clang_format_style": "{ BasedOnStyle: WebKit, ArrayInitializerAlignmentStyle: Left }",
     "C_Cpp.clang_format_fallbackStyle": "WebKit",
     /***********************/
 
@@ -69,6 +72,6 @@
     /*************************/
 
     /********** Live Share **********/
-    "liveshare.audio.startCallOnShare": true
+    "liveshare.audio.startCallOnShare": true,
     /********************************/
 }
