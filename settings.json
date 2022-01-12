@@ -1,0 +1,74 @@
+{
+    /********** general **********/
+    "files.associations": {
+        "*.do": "go",
+        ".clang-format": "makefile"
+    },
+    // remove warning on untrusted authors
+    "security.workspace.trust.untrustedfiles": "open", 
+
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.startupEditor": "none",
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    /*****************************/
+
+    /********** Explorer **********/
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+    /******************************/
+
+    /********** Looks **********/
+    // Font
+    "editor.fontFamily": "Cascadia Code, Fira Code, Jetbrains Mono",
+    "editor.fontSize": 20,
+    "editor.fontLigatures": true,
+    // Theme
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "[Material Theme Darker]": {
+            "statusBar.debuggingBackground": "#212121"
+        }
+    },
+    // Terminal
+    "terminal.integrated.fontSize": 14,
+    /***************************/
+
+    /********** Code Format **********/
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    /*********************************/
+
+    /********** C **********/
+    // Run C code in terminal
+    "code-runner.runInTerminal": true, 
+    "C_Cpp.default.compilerPath": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe",
+    "C_Cpp.updateChannel": "Insiders",
+    // C Code Format
+    "C_Cpp.formatting": "clangFormat",
+    "clang-format.executable": "C:\\Ido_Hirsh\\C\\.clang-format",
+    // "C_Cpp.clang_format_path": "C:\\Ido_Hirsh\\C\\.clang-format",
+    // "C_Cpp.clang_format_style": "{ BasedOnStyle: WebKit, ArrayInitializerAlignmentStyle: Left }",
+    "C_Cpp.clang_format_fallbackStyle": "WebKit",
+    /***********************/
+
+    /********** Java **********/
+    "java.codeGeneration.generateComments": true,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    /**************************/
+
+    /********** Git **********/
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    /*************************/
+
+    /********** Live Share **********/
+    "liveshare.audio.startCallOnShare": true
+    /********************************/
+}
