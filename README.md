@@ -1,2 +1,2 @@
-# VSCode-Settings
-My VSCode settings.json file
+# VSCode
+My VSCode files
