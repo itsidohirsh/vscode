@@ -31,7 +31,7 @@
     "workbench.colorCustomizations": {
         "[Material Theme Darker]": {
             "statusBar.debuggingBackground": "#212121"
-        }
+        },
     },
 
     // Terminal
@@ -54,7 +54,7 @@
 
     // C Code Format
     "C_Cpp.formatting": "clangFormat",
-    "clang-format.executable": "C:\\Ido_Hirsh\\C\\.clang-format",
+    "clang-format.executable": "C:\\Ido_Hirsh\\VSCode\\.clang-format",
     "C_Cpp.clang_format_fallbackStyle": "WebKit",
     /***********************/
 
@@ -64,6 +64,79 @@
         "editor.defaultFormatter": "redhat.java"
     },
     /**************************/
+
+    /********** Vim **********/
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.smartRelativeLine": true,
+
+    // "vim.vimrc.enable": true,
+    // "vim.vimrc.path": "C:\\Ido_Hirsh\\VSCode\\.vimrc",
+
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-d>": false,
+      "<C-j>": false,
+      "<C-f>": false
+    },
+
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<leader>", "w"],
+            "after": [":", "w", "<Cr>"]
+        },
+        {
+            "before": ["<leader>", "q"],
+            "after": [":", "q", "<Cr>"]
+        },
+        {
+            "before": ["<leader>", "s", "j"],
+            "after": ["<C-w>", "s"]
+        },
+        {
+            "before": ["<leader>", "s", "l"],
+            "after": ["<C-w>", "v"]
+        },
+        {
+            "before": ["<C-h>"],
+            "after": ["<C-w>", "h"]
+        },
+        {
+            "before": ["<C-l>"],
+            "after": ["<C-w>", "l"]
+        },
+        {
+            "before": ["<C-j>"],
+            "after": ["<C-w>", "j"]
+        },
+        {
+            "before": ["<C-k>"],
+            "after": ["<C-w>", "k"]
+        },
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>", "<Esc>", "<Esc>"]
+        },         
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>", "<Esc>", "<Esc>"]
+        },         
+    ],
+    "vim.commandLineModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>", "<Esc>", "<Esc>"]
+        },         
+    ],
+    /*************************/
 
     /********** Git **********/
     "git.enableSmartCommit": true,
