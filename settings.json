@@ -81,11 +81,13 @@
       "<C-a>": false,
       "<C-d>": false,
       "<C-j>": false,
+      "<C-x>": false,
       "<C-f>": false
     },
 
     "vim.leader": "<space>",
     "vim.normalModeKeyBindings": [
+        // Save & Quit
         {
             "before": ["<leader>", "w"],
             "after": [":", "w", "<Cr>"]
@@ -94,6 +96,7 @@
             "before": ["<leader>", "q"],
             "after": [":", "q", "<Cr>"]
         },
+        // Create splits
         {
             "before": ["<leader>", "s", "j"],
             "after": ["<C-w>", "s"]
@@ -102,6 +105,7 @@
             "before": ["<leader>", "s", "l"],
             "after": ["<C-w>", "v"]
         },
+        // Split navigation
         {
             "before": ["<C-h>"],
             "after": ["<C-w>", "h"]
