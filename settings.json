@@ -1,5 +1,5 @@
 {
-    /********** general **********/
+    /********** General **********/
     "files.associations": {
         "*.do": "go",
         ".clang-format": "makefile"
@@ -36,9 +36,8 @@
 
     // Terminal
     "terminal.integrated.fontSize": 14,
-    /***************************/
 
-    /********** Code Format **********/
+    // Format
     "editor.defaultFormatter": "ms-vscode.cpptools",
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
@@ -52,10 +51,15 @@
     "C_Cpp.default.compilerPath": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe",
     "C_Cpp.updateChannel": "Insiders",
 
-    // C Code Format
-    "C_Cpp.formatting": "clangFormat",
-    "clang-format.executable": "C:\\Ido_Hirsh\\VSCode\\.clang-format",
-    "C_Cpp.clang_format_fallbackStyle": "WebKit",
+    // VC format
+    "C_Cpp.formatting": "vcFormat",
+    "C_Cpp.vcFormat.space.preserveInInitializerList": false,
+    "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
+    "C_Cpp.vcFormat.space.beforeInitializerListOpenBrace": true,
+    "C_Cpp.vcFormat.space.afterCastCloseParenthesis": true,
+    "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": true,
+    "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
+    "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
     /***********************/
 
     /********** Java **********/
@@ -72,9 +76,6 @@
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
     "vim.smartRelativeLine": true,
-
-    // "vim.vimrc.enable": true,
-    // "vim.vimrc.path": "C:\\Ido_Hirsh\\VSCode\\.vimrc",
 
     "vim.handleKeys": {
       "<C-a>": false,
