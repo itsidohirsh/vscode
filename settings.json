@@ -22,7 +22,7 @@
 
     /********** Looks **********/
     // Font
-    "editor.fontFamily": "Cascadia Code, Fira Code, Jetbrains Mono",
+    "editor.fontFamily": "Fira Code", // Cascadia Code | Cascadia Mono | Consolas | Fira Code | Hack NF | Hasklig | Jetbrains Mono | Jetbrains Mono NL
     "editor.fontSize": 20,
     "editor.fontLigatures": true,
 
@@ -79,9 +79,11 @@
 
     "vim.handleKeys": {
       "<C-a>": false,
+      "<C-x>": false,
+      "<C-z>": false,
+      "<C-y>": false,
       "<C-d>": false,
       "<C-j>": false,
-      "<C-x>": false,
       "<C-f>": false
     },
 

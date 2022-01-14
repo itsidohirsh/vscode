@@ -9,11 +9,11 @@
         "command": "workbench.action.previousEditor"
     },
     {
-        "key": "shift+k",
+        "key": "alt+k",
         "command": "editor.action.moveLinesUpAction",
     },
     {
-        "key": "shift+j",
+        "key": "alt+j",
         "command": "editor.action.moveLinesDownAction",
     },
 ]
