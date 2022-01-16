@@ -22,7 +22,7 @@
 
     /********** Looks **********/
     // Font
-    "editor.fontFamily": "Fira Code", // Cascadia Code | Cascadia Mono | Consolas | Fira Code | Hack NF | Hasklig | Jetbrains Mono | Jetbrains Mono NL
+    "editor.fontFamily": "Hack Nerd Font Mono", // Cascadia Code | Cascadia Mono | Consolas | Courier Prime | Fira Code | Hack Nerd Font Mono | Hasklig | Jetbrains Mono | Jetbrains Mono NL | Monaco for Powerline
     "editor.fontSize": 20,
     "editor.fontLigatures": true,
 
