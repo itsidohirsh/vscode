@@ -51,15 +51,26 @@
     "C_Cpp.default.compilerPath": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe",
     "C_Cpp.updateChannel": "Insiders",
 
-    // VC format
     "C_Cpp.formatting": "vcFormat",
+
+    // Space
     "C_Cpp.vcFormat.space.preserveInInitializerList": false,
     "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
     "C_Cpp.vcFormat.space.beforeInitializerListOpenBrace": true,
     "C_Cpp.vcFormat.space.afterCastCloseParenthesis": true,
+
+    // NewLine
     "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": true,
     "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
     "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
+    "C_Cpp.vcFormat.newLine.beforeWhileInDoWhile": false,
+    "C_Cpp.vcFormat.newLine.beforeElse": true,
+    "C_Cpp.vcFormat.newLine.beforeCatch": true,
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "newLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "newLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "newLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "newLine",
     /***********************/
 
     /********** Java **********/
@@ -82,6 +93,7 @@
       "<C-x>": false,
       "<C-z>": false,
       "<C-y>": false,
+      "<C-c>": false,
       "<C-d>": false,
       "<C-j>": false,
       "<C-k>": false,
