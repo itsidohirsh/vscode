@@ -31,14 +31,14 @@
     "workbench.colorCustomizations": {
         "[Material Theme Darker]": {
             "statusBar.debuggingBackground": "#212121"
-        },
+        }
     },
+
+    // Format
+    "json.format.enable": false,
 
     // Terminal
     "terminal.integrated.fontSize": 14,
-
-    // Format
-    "editor.defaultFormatter": "ms-vscode.cpptools",
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
@@ -136,25 +136,25 @@
         {
             "before": ["<C-k>"],
             "after": ["<C-w>", "k"]
-        },
+        }
     ],
     "vim.insertModeKeyBindings": [
         {
             "before": ["j", "k"],
             "after": ["<Esc>", "<Esc>", "<Esc>"]
-        },         
+        }        
     ],
     "vim.visualModeKeyBindings": [
         {
             "before": ["j", "k"],
             "after": ["<Esc>", "<Esc>", "<Esc>"]
-        },         
+        }        
     ],
     "vim.commandLineModeKeyBindings": [
         {
             "before": ["j", "k"],
             "after": ["<Esc>", "<Esc>", "<Esc>"]
-        },         
+        }         
     ],
     /*************************/
 
@@ -165,6 +165,6 @@
     /*************************/
 
     /********** Live Share **********/
-    "liveshare.audio.startCallOnShare": true,
+    "liveshare.audio.startCallOnShare": true
     /********************************/
 }
