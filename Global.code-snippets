@@ -1,0 +1,33 @@
+{
+	/********** File Headers **********/
+	"C File Header": {
+		"prefix": "C File Header",
+		"body": [
+			"/*",
+			"Ido Hirsh",
+			"YudGimel 13 - Software Engineering - Sigit 8200",
+			"",
+			"Course: C",
+			"Worksheet: ",
+			"Exercise: ",
+			"Date: ",
+			"*/",
+		]
+	},
+
+	"Data Structures & Algorithms File Header": {
+		"prefix": "Data Structures & Algorithms File Header",
+		"body": [
+			"/*",
+			"Ido Hirsh",
+			"YudGimel 13 - Software Engineering - Sigit 8200",
+			"",
+			"Course: Data structures & Algorithms efficiency",
+			"Worksheet: ",
+			"Exercise: ",
+			"Date: ",
+			"*/",
+		]
+	},
+	/**********************************/
+}

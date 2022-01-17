@@ -232,6 +232,6 @@
     /*****************************/
 
     /********** Live Share **********/
-    "liveshare.audio.startCallOnShare": true
+    "liveshare.audio.startCallOnShare": true,
     /********************************/
 }
