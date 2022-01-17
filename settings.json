@@ -22,9 +22,21 @@
 
     /********** Looks **********/
     // Font
-    "editor.fontFamily": "Hack Nerd Font Mono", // Cascadia Code | Cascadia Mono | Consolas | Courier Prime | Fira Code | Hack Nerd Font Mono | Hasklig | Jetbrains Mono | Jetbrains Mono NL | Monaco for Powerline
-    "editor.fontSize": 20,
+    "editor.fontFamily": "Consolas", // Cascadia Code | Cascadia Mono | Consolas | Courier Prime | Fira Code | Hack Nerd Font Mono | Hasklig | Jetbrains Mono | Jetbrains Mono NL | Monaco for Powerline
+    "editor.fontSize": 22,
     "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    ""  // Scope is all the code
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+        ]
+    },
 
     // Theme
     "workbench.iconTheme": "material-icon-theme",
@@ -38,7 +50,7 @@
     "json.format.enable": false,
 
     // Terminal
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 16,
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
@@ -233,5 +245,6 @@
 
     /********** Live Share **********/
     "liveshare.audio.startCallOnShare": true,
+    "workbench.colorTheme": "Gruvbox Material Dark",
     /********************************/
 }
