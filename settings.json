@@ -28,11 +28,22 @@
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
+                // Will be italic
                 "scope": [
                     ""  // Scope is all the code
                 ],
                 "settings": {
                     "fontStyle": "italic"
+                },
+            },
+            {
+                // Will not be italic
+                "scope": [
+                    "keyword.operator",
+                    "constant",
+                ],
+                "settings": {
+                    "fontStyle": "",
                 }
             },
         ]
@@ -63,14 +74,13 @@
     "C_Cpp.default.compilerPath": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe",
     "C_Cpp.updateChannel": "Insiders",
 
+    // Formatting
     "C_Cpp.formatting": "vcFormat",
-
     // Space
     "C_Cpp.vcFormat.space.preserveInInitializerList": false,
     "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
     "C_Cpp.vcFormat.space.beforeInitializerListOpenBrace": true,
     "C_Cpp.vcFormat.space.afterCastCloseParenthesis": true,
-
     // NewLine
     "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": true,
     "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
@@ -245,6 +255,5 @@
 
     /********** Live Share **********/
     "liveshare.audio.startCallOnShare": true,
-    "workbench.colorTheme": "Gruvbox Material Dark",
     /********************************/
 }
