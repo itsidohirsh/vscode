@@ -2,7 +2,6 @@
     /********** General **********/
     "files.associations": {
         "*.do": "go",
-        ".clang-format": "makefile"
     },
 
     // remove warning on untrusted authors
@@ -40,7 +39,7 @@
                 // Will not be italic
                 "scope": [
                     "keyword.operator",
-                    "constant",
+                    "constant.numeric",
                 ],
                 "settings": {
                     "fontStyle": "",
@@ -58,13 +57,13 @@
     },
 
     // Format
-    "json.format.enable": false,
-
-    // Terminal
-    "terminal.integrated.fontSize": 16,
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
+    "json.format.enable": false,  // Disable json formatting
+
+    // Terminal
+    "terminal.integrated.fontSize": 16,
     /*********************************/
 
     /********** C **********/
@@ -110,16 +109,19 @@
     "vim.hlsearch": true,
     "vim.smartRelativeLine": true,
 
+    "files.autoSave": "onFocusChange",
+
     "vim.handleKeys": {
       "<C-a>": false,
       "<C-x>": false,
+      "<C-c>": false,
+      "<C-v>": false,
       "<C-z>": false,
       "<C-y>": false,
-      "<C-c>": false,
+      "<C-f>": false,
       "<C-d>": false,
       "<C-j>": false,
-      "<C-k>": false,
-      "<C-f>": false
+      "<C-k>": false
     },
 
     "vim.leader": "<space>",
@@ -132,6 +134,35 @@
         {
             "before": ["<leader>", "q"],
             "after": [":", "q", "<Cr>"]
+        },
+        // Buffer switches
+        {
+            "before": ["<tab>"],
+            "commands": ["workbench.action.nextEditor"]
+        },
+        {
+            "before": ["<S-tab>"],
+            "commands": ["workbench.action.previousEditor"]
+        },
+        // Reveal in explorer
+        {
+            "before": ["<leader>", "f"],
+            "commands": ["revealInExplorer"]
+        },
+        // Go to start of line
+        {
+            "before": ["<leader>", "h"],
+            "after": ["_"]
+        },
+        // Go to end of line
+        {
+            "before": ["<leader>", "l"],
+            "after": ["$"]
+        },
+        // Go to end of line and put ;
+        {
+            "before": ["<leader>", ";"],
+            "after": ["$", "a", ";", "<Esc>"]
         },
         // Create splits
         {
@@ -158,6 +189,11 @@
         {
             "before": ["<C-k>"],
             "after": ["<C-w>", "k"]
+        },
+        // No highlight
+        {
+            "before": ["<leader>", "n", "h"],
+            "commands": [":nohl"]
         }
     ],
     "vim.insertModeKeyBindings": [
