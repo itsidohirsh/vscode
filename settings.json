@@ -21,7 +21,7 @@
 
     /********** Looks **********/
     // Font
-    "editor.fontFamily": "Consolas", // Cascadia Code | Cascadia Mono | Consolas | Courier Prime | Fira Code | Hack Nerd Font Mono | Hasklig | Jetbrains Mono | Jetbrains Mono NL | Monaco for Powerline
+    "editor.fontFamily": "Consolas", // Cascadia Code | Cascadia Mono | Consolas | Consolas ligaturized v2 | Courier Prime | Fira Code | Hack Nerd Font Mono | Hasklig | Jetbrains Mono | Jetbrains Mono NL | Monaco for Powerline
     "editor.fontSize": 22,
     "editor.fontLigatures": true,
     "editor.tokenColorCustomizations": {

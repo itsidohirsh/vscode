@@ -17,9 +17,9 @@
         "key": "alt+j",
         "command": "editor.action.moveLinesDownAction",
     },
-    // shift + k to hover
+    // ctrl + shift + k to hover
     {
-      "key": "shift+k",
+      "key": "ctrl+shift+k",
       "command": "editor.action.showHover",
       "when": "editorTextFocus"
     },
@@ -31,15 +31,5 @@
     {
       "key": "ctrl+alt+v",
       "command": "toggleVim"
-    },
-    {
-        "key": "ctrl+alt+o",
-        "command": "revealFileInOS",
-        "when": "!editorFocus"
-    },
-    {
-        "key": "shift+alt+r",
-        "command": "-revealFileInOS",
-        "when": "!editorFocus"
     },
 ]
