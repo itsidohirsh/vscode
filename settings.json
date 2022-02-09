@@ -71,10 +71,12 @@
     "code-runner.runInTerminal": true, 
 
     "C_Cpp.default.compilerPath": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe",
-    "C_Cpp.updateChannel": "Insiders",
 
     // Formatting
     "C_Cpp.formatting": "vcFormat",
+    // Indent
+    "C_Cpp.vcFormat.indent.caseLabels": true,
+    "C_Cpp.vcFormat.indent.caseContents": true,
     // Space
     "C_Cpp.vcFormat.space.preserveInInitializerList": false,
     "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
@@ -198,19 +200,19 @@
     ],
     "vim.insertModeKeyBindings": [
         {
-            "before": ["j", "k"],
+            "before": [";", "j"],
             "after": ["<Esc>", "<Esc>", "<Esc>"]
         }        
     ],
     "vim.visualModeKeyBindings": [
         {
-            "before": ["j", "k"],
+            "before": [";", "j"],
             "after": ["<Esc>", "<Esc>", "<Esc>"]
         }        
     ],
     "vim.commandLineModeKeyBindings": [
         {
-            "before": ["j", "k"],
+            "before": [";", "j"],
             "after": ["<Esc>", "<Esc>", "<Esc>"]
         }         
     ],
@@ -291,5 +293,10 @@
 
     /********** Live Share **********/
     "liveshare.audio.startCallOnShare": true,
+    "svg.preview.transparencyGrid": false,
+    "svg.preview.boundingBox": false,
+    "workbench.editorAssociations": {
+        "*.svg": "svgPreviewer.customEditor"
+    },
     /********************************/
 }
