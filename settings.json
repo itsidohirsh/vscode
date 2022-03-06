@@ -22,7 +22,7 @@
     /********** Looks **********/
     // Font
     "editor.fontFamily": "Ubuntu Mono", // Cascadia Code | Cascadia Mono | Consolas | Consolas ligaturized v2 | Courier Prime | Fira Code | Hack Nerd Font Mono | Hasklig | Jetbrains Mono | Jetbrains Mono NL | Monaco for Powerline | Ubuntu Mono
-    "editor.fontSize": 26,
+    "editor.fontSize": 24,
     "editor.fontLigatures": true,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -63,7 +63,7 @@
     "json.format.enable": false,  // Disable json formatting
 
     // Terminal
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 20,
     /*********************************/
 
     /********** C **********/
@@ -102,6 +102,12 @@
         "editor.defaultFormatter": "redhat.java"
     },
     /**************************/
+
+    /********** Python **********/
+    "python.formatting.provider": "black",
+    "autoDocstring.docstringFormat": "sphinx",
+    "autoDocstring.startOnNewLine": true,
+    /****************************/
 
     /********** Vim **********/
     "vim.easymotion": true,
@@ -192,6 +198,11 @@
             "before": ["<C-k>"],
             "after": ["<C-w>", "k"]
         },
+        // Make Y like D, C etc.
+        {
+            "before": ["Y"],
+            "after": ["y", "$"]
+        },
         // No highlight
         {
             "before": ["<leader>", "n", "h"],
@@ -199,18 +210,31 @@
         }
     ],
     "vim.insertModeKeyBindings": [
+        // Back to normal mode
         {
             "before": [";", "j"],
             "after": ["<Esc>", "<Esc>", "<Esc>"]
         }        
     ],
     "vim.visualModeKeyBindings": [
+        // Back to normal mode
         {
             "before": [";", "j"],
             "after": ["<Esc>", "<Esc>", "<Esc>"]
-        }        
+        },
+        // Go to start of line
+        {
+            "before": ["<leader>", "h"],
+            "after": ["_"]
+        },
+        // Go to end of line
+        {
+            "before": ["<leader>", "l"],
+            "after": ["$"]
+        }
     ],
     "vim.commandLineModeKeyBindings": [
+        // Back to normal mode
         {
             "before": [";", "j"],
             "after": ["<Esc>", "<Esc>", "<Esc>"]
