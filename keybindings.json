@@ -17,15 +17,20 @@
         "key": "alt+j",
         "command": "editor.action.moveLinesDownAction",
     },
+    // Switch terminals
+    { 
+        "key": "ctrl+;", 
+        "command": "workbench.action.terminal.focusNext" 
+    },
+    { 
+        "key": "ctrl+h", 
+        "command": "workbench.action.terminal.focusPrevious" 
+    },
     // ctrl + shift + k to hover
     {
       "key": "ctrl+shift+k",
       "command": "editor.action.showHover",
       "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+;",
-        "command": "workbench.action.toggleSidebarVisibility",
     },
     // Toggle vim
     {
