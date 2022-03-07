@@ -19,12 +19,8 @@
     },
     // Switch terminals
     { 
-        "key": "ctrl+;", 
+        "key": "ctrl+'", 
         "command": "workbench.action.terminal.focusNext" 
-    },
-    { 
-        "key": "ctrl+h", 
-        "command": "workbench.action.terminal.focusPrevious" 
     },
     // ctrl + shift + k to hover
     {
