@@ -248,6 +248,14 @@
     "git.autofetch": true,
     /*************************/
 
+    /********** SVG **********/
+    "svg.preview.transparencyGrid": false,
+    "svg.preview.boundingBox": false,
+    "workbench.editorAssociations": {
+        "*.svg": "svgPreviewer.customEditor"
+    },
+    /*************************/
+
     /********** Emoji sense **********/
     "emojisense.languages": {
         "plaintext": {
@@ -317,10 +325,5 @@
 
     /********** Live Share **********/
     "liveshare.audio.startCallOnShare": true,
-    "svg.preview.transparencyGrid": false,
-    "svg.preview.boundingBox": false,
-    "workbench.editorAssociations": {
-        "*.svg": "svgPreviewer.customEditor"
-    },
     /********************************/
 }
