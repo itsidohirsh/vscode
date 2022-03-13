@@ -22,6 +22,11 @@
         "key": "ctrl+'", 
         "command": "workbench.action.terminal.focusNext" 
     },
+    // Toggle sidebar
+    {
+        "key": "ctrl+[",
+        "command": "workbench.action.toggleSidebarVisibility" 
+    },
     // ctrl + shift + k to hover
     {
       "key": "ctrl+shift+k",
