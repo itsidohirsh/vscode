@@ -1,2 +1,2 @@
 # VSCode
-My VSCode files
+My VSCode configuration files 📐
